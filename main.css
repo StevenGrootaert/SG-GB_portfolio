@@ -100,3 +100,12 @@ padding-top: 375px;
 .contact{
   padding: 15px;
 }
+
+.btn-primary{
+  background-color: darkgray;
+  
+}
+
+.btn-primary a:hover{
+  background-color:  darkslategray;
+}
