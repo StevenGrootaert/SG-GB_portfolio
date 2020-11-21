@@ -64,7 +64,48 @@ body{
     }
   }
 
-/* boot strap components */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategrey;
+  height: 10px;
+  font-size: 1.25em;
+  color: lightgrey;
+  text-align: center;
+  padding: 1.25em 1.25em;
+}
+footer ul#menuFooter {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 0.5em;
+  padding: 0 0 .5em 0;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0 0.7em 0 0;
+  margin: 0;
+}
+footer ul li::before {
+  content: "|";
+  padding-right: 0.7em;
+}
+footer a, footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer {
+  position: bottom;
+}
+
+
+  /* boot strap components */
 
 .jumbotron {
 height: 600px;
